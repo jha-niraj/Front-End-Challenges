@@ -1,0 +1,107 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+           /* Navbar Section or the Logo section */
+nav {
+    display: flex;
+    font-weight: 900;
+    font-size: 18px;
+}
+.links {
+    display: flex;
+    margin: 30px 30px;
+    list-style-type: none;
+}
+.item {
+    padding: 0 20px 0 20px;
+}
+.item > a {
+    text-decoration: none;
+    opacity: 0.7;
+}
+.item > a:hover {
+    opacity: 1;
+}
+.login {
+    /* display: flex;
+    align-content: flex-end;
+    justify-content: flex-end; */
+    margin: 30px 30px;
+    padding: 0 20px 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 18px;
+}
+.last-links {
+    display: flex;
+    list-style-type: none;
+}
+.last-links > li {
+    padding: 0 20px 0 20px;
+}
+.last-links > li > a {
+    text-decoration: none;
+    opacity: 0.7;
+}
+.last-links > li > a:hover {
+    opacity: 1;
+}
+.logo {
+    position: relative;
+    margin: 30px 30px;
+}
+.register {
+    border: 2px solid black;
+    padding: 4px 12px 4px 12px;
+    border-radius: 10px;
+}
+
+        /* Main section of the page. */
+.main {
+    display: flex;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 150px;
+}
+.content > .first > h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+.content > .first > p {
+    padding: 50px 0 50px 0;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.content > .first > .btn {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.mainpicture {
+    height: 600px;
+    width: 600px;
+    margin-left: 100px;
+}
+.second {
+    display: flex;
+    /* display: inline-block; */
+    padding: 97px 0px;
+    /* border: 2px solid black; */
+}
+.second > .svg {
+    padding: 0 20px 0 6px;
+}
